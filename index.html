@@ -1,10 +1,330 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
-    <title>Test</title>
+
+    <title>Zaraban</title>
+
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amiri|Lalezar|Open+Sans" rel="stylesheet">
+
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css" media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="assets/css/global_style.css" media="screen,projection">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
 </head>
+
 <body>
-salam
+<div class="fixed-action-btn">
+    <a class="btn-floating btn-large cyan lighten-2 waves-effect" href="#navigation">
+        <i class="large material-icons">arrow_upward</i>
+    </a>
+</div>
+<!--<div class="navbar-fixed">-->
+<nav role="navigation" id="navigation" class="cyan lighten-3 ">
+    <!--<nav role="navigation" class="cyan lighten-3" style="z-index: 1;position: relative">-->
+    <div class="nav-wrapper cyan lighten-3 row container">
+        <!--<div class="nav-wrapper cyan lighten-3 row container" style="z-index: 2;position:relative;">-->
+        <div class="col s12 m12 l3 xl3">
+            <!--<div class="col s12 m12 l3 xl3" style="z-index: 3;position: relative">-->
+            <!--<div class="center-on-small-only center-on-medium-only zaraban_responsive_imag ">-->
+            <div class="center-on-small-only center-on-medium-only">
+                <!--<img src="assets/img/heart-signal.png" class="zaraban_responsive_imag">-->
+                <a href="#index-banner" class="brand-logo">ضربان</a>
+                <div class="right">
+
+                    <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i
+                            class="material-icons">menu</i></a>
+                </div>
+            </div>
+        </div>
+        <ul id="nav-mobile" class="right sidenav">
+            <li><a href="#holter_detail">هولتر</a></li>
+            <li><a href="#holter_EE_detail">الکترونیک هولتر</a></li>
+            <li><a href="#holter_AI_detail">هولتر هوشمند</a></li>
+            <li><a href="#holter_SW_detail">نرم‌افزار ضربان</a></li>
+        </ul>
+        <div class="col l9 xl9 hide-on-med-and-down right ">
+            <ul id="nav" class="right" style="direction: rtl">
+                <li><a href="#holter_detail">هولتر</a></li>
+                <li><a href="#holter_EE_detail">الکترونیک هولتر</a></li>
+                <li><a href="#holter_AI_detail">هولتر هوشمند</a></li>
+                <li><a href="#holter_SW_detail">نرم‌افزار ضربان</a></li>
+                <li><a href="#our_team">تیم ما</a></li>
+            </ul>
+        </div>
+
+    </div>
+</nav>
+<!--</div>-->
+<div id="index-banner" class="parallax-container parallax">
+    <div class="section no-pad-bot">
+        <div class="container row">
+            <br><br>
+            <h1 class="header center cyan-text text-lighten-3">ضربان</h1>
+            <div class="row center">
+                <h2 class="header col s12 white-text light">رو ریتم باشین</h2>
+            </div>
+            <br><br>
+
+        </div>
+    </div>
+    <div class="parallax" style="width: 100%">
+        <img src="assets/img/Heartbeats-banner.jpg">
+    </div>
+</div>
+<div class="blue-grey lighten-5">
+    <div class="section container" style="width: 95%">
+
+        <!--   Icon Section   -->
+        <div class="row">
+            <div class="col s12 m4 l4 xl4">
+                <div class="icon-block">
+                    <h2 class="center cyan-text text-lighten-3"><i class="medium material-icons">flash_on</i></h2>
+                    <h4 class="center">قدرتمند و ساده</h4>
+
+                    <h5 class="center" style="direction: rtl">تیم ضربان تلاش می‌کند تا محصولی با کاربری ساده در عین حال
+                        قدرتمند و مشابه با علم روز دنیا تولید کند.</h5>
+                </div>
+            </div>
+
+            <div class="col s12 m4">
+                <div class="icon-block">
+                    <h2 class="center cyan-text text-lighten-3"><i class="medium material-icons">group</i></h2>
+                    <h4 class="center" style="direction: rtl">تیمی قوی و هوشمند</h4>
+
+                    <h5 class="center">تیم ضربان متشکل از دانشجویان و فارغ‌التحصیلان دانشگاه علم و صنعت ایران
+                        هستند.</h5>
+                </div>
+            </div>
+
+            <div class="col s12 m4">
+                <div class="icon-block">
+                    <h2 class="center cyan-text text-lighten-3"><i class="medium material-icons">favorite_border</i>
+                    </h2>
+                    <h4 class="center">هدف‌ ما سلامتی شما</h4>
+
+                    <h5 class="center">از ابتدا تیم ضربان با هدف پایش سلامتی و کاهش هزینه‌های درمانی تشکیل شد و همواره
+                        در
+                        این راه تلاش می‌کند.</h5>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div id="holter_detail">
+    <div class="section container" style="width: 95%">
+        <div class="row">
+            <div class="col m4 l6 xl6 hide-on-small-and-down">
+                <img src="parallax-template/background2.jpg" class="responsive-img">
+            </div>
+            <div class="col s12 m8 l6 xl6" style="direction: rtl">
+                <h3 class="right">هولتر</h3>
+                <br><br><br>
+                <h4 class="right">توضیحاتی در مورد خود هولتر</h4>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div id="holter_EE_detail" class="blue-grey lighten-5">
+    <div class="section container" style="width: 95%">
+        <div class="row">
+
+            <div class="col s12 m8 l6 xl6" style="direction: rtl">
+                <h3 class="right">بخش الکترونیک</h3>
+                <br><br><br>
+                <h4 class="right">توضیحاتی در مورد الکترونیک هولتر</h4>
+            </div>
+            <div class="col m4 l6 xl6 hide-on-small-and-down">
+                <img src="parallax-template/background2.jpg" class="responsive-img">
+            </div>
+        </div>
+    </div>
+</div>
+<div id="holter_AI_detail">
+    <div class="section container" style="width: 95%">
+        <div class="row">
+            <div class="col m4 l6 xl6 hide-on-small-and-down">
+                <img src="parallax-template/background2.jpg" class="responsive-img">
+            </div>
+            <div class="col s12 m8 l6 xl6" style="direction: rtl">
+                <h3 class="right">هولتر هوشمند</h3>
+                <br><br><br>
+                <h4 class="right">توضیحاتی در مورد هوش هولتر</h4>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="holter_SW_detail" class="blue-grey lighten-5">
+    <div class="section container" style="width: 95%">
+        <div class="row">
+
+            <div class="col s12 m8 l6 xl6" style="direction: rtl">
+                <h3 class="right">نرم‌افزار</h3>
+                <br><br><br>
+                <h4 class="right">نرم‌افزار ضربان با قابلیت ...</h4>
+            </div>
+            <div class="col m4 l6 xl6 hide-on-small-and-down">
+                <img src="parallax-template/background2.jpg" class="responsive-img">
+            </div>
+        </div>
+    </div>
+</div>
+<div id="our_team">
+    <h3 class="center">تیم ما</h3>
+    <div class="section container" style="direction: rtl;width: 95%">
+        <div class="row">
+            <div class="col s12 m4 l4 xl4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator responsive-img" src="assets/img/3x4/hossein.jpg">
+                    </div>
+                    <div class="card-content ">
+                        <span class="card-title activator grey-text text-darken-4">حسین نقیبی<i
+                                class="material-icons left">more_vert</i></span>
+                        <p>بازاریاب</p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">حسین نقیبی<i
+                                class="material-icons left">close</i></span>
+                        <p>چیزایی بیشتر درباره حسین.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4 l4 xl4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator responsive-img" src="assets/img/3x4/mohammad_sepehr.jpg">
+                    </div>
+                    <div class="card-content ">
+                        <span class="card-title activator grey-text text-darken-4">محمد کشمیری(راستی)<i
+                                class="material-icons left">more_vert</i></span>
+                        <p>بازاریاب و برنامه نویس</p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">محمد کشمیری<i
+                                class="material-icons left">close</i></span>
+                        <p>چیزای بیشتر درباره محمد.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4 l4 xl4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator responsive-img" src="assets/img/3x4/amirhosein.jpg">
+                    </div>
+                    <div class="card-content ">
+                        <span class="card-title activator grey-text text-darken-4">امیرحسین دژبرو<i
+                                class="material-icons left">more_vert</i></span>
+                        <p>برنامه نویس</p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">امیرحسین دژبرو<i
+                                class="material-icons left">close</i></span>
+                        <p>چیزای بیشتر درباره امیرحسین</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s12 m4 l4 xl4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator responsive-img" src="assets/img/3x4/erfan.jpg">
+                    </div>
+                    <div class="card-content ">
+                        <span class="card-title activator grey-text text-darken-4">عرفان یوسفی<i
+                                class="material-icons left">more_vert</i></span>
+                        <p>الکترونیک کار</p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">عرفان یوسفی<i
+                                class="material-icons left">close</i></span>
+                        <p>چیزای بیشتر درباره عرفان.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4 l4 xl4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator responsive-img" src="assets/img/3x4/mohammad_sepehr.jpg">
+                    </div>
+                    <div class="card-content ">
+                        <span class="card-title activator grey-text text-darken-4">سپهر اسماعیلی(چپی)<i
+                                class="material-icons left">more_vert</i></span>
+                        <p>الکترونیک کار</p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">سپهر اسماعیلی<i
+                                class="material-icons left">close</i></span>
+                        <p>چیزای بیشتر درباره سپهر.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m4 l4 xl4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator responsive-img" src="assets/img/3x4/mostafa.jpg">
+                    </div>
+                    <div class="card-content ">
+                        <span class="card-title activator grey-text text-darken-4">مصطفی محمد علی ابراهیم<i
+                                class="material-icons left">more_vert</i></span>
+                        <p>برنامه نویس</p>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">مصطفی محمد علی ابراهیم<i
+                                class="material-icons left">close</i></span>
+                        <p>چیزای بیشتر درباره مصطفی</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="page-footer cyan lighten-3">
+    <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+                <h4 class="white-text">تماس با ما</h4>
+                <h5 class="grey-text text-lighten-4">info@zaraban.ir</h5>
+            </div>
+            <div class="col l4 offset-l2 s12">
+                <h4 class="white-text">شبکه‌های اجتماعی</h4>
+                <ul>
+                    <li><img src="https://img.icons8.com/material-outlined/48/000000/instagram-new.png"></li>
+                    <li><img src="https://img.icons8.com/material/48/000000/telegram-app.png"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container center">
+            © 2019 تمامی حقوق این سایت متغلق به استارتاپ ضربان می‌باشد
+        </div>
+    </div>
+</footer>
+
+<!--JavaScript at end of body for optimized loading-->
+<script type="text/javascript" src="assets/js/materialize.min.js"></script>
+<script>
+    M.AutoInit();
+    document.addEventListener('DOMContentLoaded', function () {
+        var elems = document.querySelectorAll('.sidenav');
+        console.log(elems);
+        var option = elems[0].M_Sidenav.options;
+        option.edge = "right";
+        console.log(option);
+        var instances = M.Sidenav.init(elems, option);
+    });
+</script>
+
 </body>
+
 </html>
